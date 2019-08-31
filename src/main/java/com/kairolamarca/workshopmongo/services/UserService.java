@@ -55,5 +55,9 @@ public class UserService {
 	public User fromDTO(UserDTO objDto) {
 		return new User(objDto.getId(), objDto.getName(), objDto.getEmail());
 	}
+	
+	public int soma(int n1, int n2) {
+		return n1+n2;
+	}
 
 }
